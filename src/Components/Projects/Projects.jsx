@@ -29,8 +29,14 @@ const Projects = () => {
           icon={<FaCoffee />} // أيقونة القهوة
         />
         <ProjectCard
-          title="Site Design et Marketing Pro"
+          title="Site Design et Marketing Pro 1"
           main="Réalisé avec HTML, CSS et Bootstrap 5, offrant un design réactif et des services de marketing digital pour améliorer la visibilité en ligne."
+          demoLink="https://yasminefatih.github.io/Responsive_Prixima/"
+          icon={<FaLaptop />} // أيقونة الكمبيوتر المحمول
+        />
+        <ProjectCard
+          title="Site Design et Marketing Pro 2"
+          main="Créé avec HTML, CSS et JavaScript, offrant un design réactif et des services pour améliorer la visibilité en ligne."
           demoLink="https://yasminefatih.github.io/Responsive_Prixima/"
           icon={<FaLaptop />} // أيقونة الكمبيوتر المحمول
         />
@@ -40,20 +46,15 @@ const Projects = () => {
           demoLink="https://yasminefatih.github.io/Responsive-Agency-Website/"
           icon={<FaPaintBrush />} // أيقونة فرشاة الرسم
         />
+
         <ProjectCard
-          title="Site Design et Marketing Pro"
-          main="Créé avec HTML, CSS et JavaScript, offrant un design réactif et des services pour améliorer la visibilité en ligne."
-          demoLink="https://yasminefatih.github.io/Responsive_Prixima/"
-          icon={<FaLaptop />} // أيقونة الكمبيوتر المحمول
-        />
-        <ProjectCard
-          title="Site de Pages d'Atterrissage"
+          title="Site de Pages d'Atterrissage 1"
           main="Créé avec HTML, CSS et Bootstrap 5, offrant un design réactif et des pages d'atterrissage optimisées pour maximiser les conversions."
           demoLink="https://yasminefatih.github.io/Bootstrap-Landing-Page/"
           icon={<FaCode />} // أيقونة الشيفرة البرمجية
         />
         <ProjectCard
-          title="Site de Page d'Atterrissage"
+          title="Site de Page d'Atterrissage 2"
           main="Créé avec HTML, CSS et Tailwind, offrant un design réactif et des pages d'atterrissage optimisées pour maximiser les conversions."
           demoLink="https://yasminefatih.github.io/tailwind-landing-page/"
           icon={<FaCode />} // أيقونة الشيفرة البرمجية
@@ -81,12 +82,6 @@ const Projects = () => {
           main="Créé avec React et Tailwind CSS, offrant une interface moderne et élégante, optimisée pour une expérience utilisateur fluide."
           demoLink="https://yasminefatih.github.io/React_Tailwind_CSS_Responsive_Website/"
           icon={<FaLaptop />} // أيقونة الكمبيوتر المحمول
-        />
-        <ProjectCard
-          title="CRUD"
-          main="Créé avec React, permettant une gestion complète des produits (CRUD) avec une interface simple pour ajouter, modifier, afficher et supprimer des produits."
-          demoLink="https://yasminefatih.github.io/Full-product-management-system-crud-/"
-          icon={<FaCode />} // أيقونة الشيفرة البرمجية
         />
       </div>
     </div>
